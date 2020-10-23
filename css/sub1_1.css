@@ -1,0 +1,92 @@
+
+#sub_header {
+    background: url('../image/brandstory_header.jpg');
+    height: 280px;
+    position: relative;
+    color: #fff;
+}
+#sub_header > .head1 > h2 {
+    padding-top: 80px;
+    font-size: 42px;
+    font-family: "metropolis-medium";
+}
+#sub_header > .head1 > h4 {
+    font-size: 18px;
+    font-weight: lighter;
+    padding-top: 10px;
+}
+#sub_header > .head1 > h2, h4 {
+    margin: 0 auto;
+    /* outline: 2px solid green; */
+    text-align: center;
+    color: #fff;
+}
+#sub_header > .head2 {
+    position: absolute;
+}
+#sub_header > .head2 {
+    width: 100%;
+    /* outline: 3px solid green; */
+    text-align: center;
+    bottom: 30px;
+}
+#sub_header > .head2 > ul > li {
+    display: inline-block;
+}
+
+#sub_header > .head2 > ul > li > a {
+    color: #fff;
+    font-weight: normal;
+}
+#sub_header > .head2 > ul > li:first-child > a {
+    color: #adc178;
+}
+
+/* main_content */
+article {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#sub_cont > .intro {
+    margin-top: 150px;
+    text-align: center;
+}
+#sub_cont > .intro > h2 {
+    font-size: 38px;
+    font-weight: normal;
+}
+#sub_cont > .intro > h4 {
+    /* outline: 2px solid green; */
+    color: #adc178;
+    margin-top: 25px;
+    font-size: 18px;
+}
+#sub_cont > section > h3 {
+    font-size: 34px;
+    margin-top: 60px;
+}
+#sub_cont > section > img {
+    height: 600px;
+}
+#sub_cont > .sec1 {
+    margin-top: 90px;
+}
+
+#sub_cont > .sec2 {
+    text-align: left;
+}
+
+#sub_cont > .sec1, .sec3 {
+    text-align: right;
+}
+#sub_cont > section > p {
+    margin-top: 20px; 
+}
+#sub_cont > .sec2, .sec3 {
+    margin-top: 60px;
+}
+#sub_cont > .sec3 {
+    margin-bottom: 150px;
+}
+            

@@ -1,0 +1,116 @@
+/* sub2.css */
+
+/* sub_visual */
+#sub_visual {
+    background: url(../image/sub2_visual.png);
+    width: 100%; height: 280px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+#sub_visual > div {
+    width: 1200px;
+    margin: 0 auto;
+    top: 103px;
+    /* outline: 1px solid green; */
+}
+#sub_visual > div > h2 {
+    margin-top: 103px;
+    font-size: 42px;
+    font-family: Metropolis-Bold;
+    color: white;
+    /* outline: 2px solid green; */
+}
+#sub_visual > div > p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+}
+#sub_visual > div > .sub_lnb {
+    margin-top: 46px;
+    /* outline: 2px solid rebeccapurple; */
+}
+#sub_visual > div > .sub_lnb li {
+    display: inline-block;
+}
+#sub_visual > div > .sub_lnb li > .lnb_click {
+    color: #adc178;
+}
+#sub_visual > div > .sub_lnb a {
+    font-size: 18px;
+    color: white;
+    padding: 9px 59px;
+}
+#sub_visual > div > .sub_lnb span {
+    color: white;
+}
+
+/* menu_title */
+#menu_title {
+    width: 1200px;
+    /* outline: 2px solid red; */
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 151px;
+}
+#menu_title > .menu_header > h2 {
+    margin-top: 150px;
+    font-size: 38px;
+}
+#menu_title > .menu_header > p {
+    font-size: 18px;
+    margin-top: 14px;
+    color: #adc178;
+    font-family: Metropolis-Regular;
+}
+#menu_title > .menu {
+    margin-top: 64px;
+    /* outline: 2px solid green; */
+}
+
+#menu_title > .menu > .menu_content {
+    width: 387px;
+    /* outline: 2px solid red; */
+    float: left;
+    margin-right: 19.5px;
+}
+
+#menu_title > .menu > .menu_content > img {
+    overflow: hidden;
+    transform: scale(0.9, 0.9);
+    transition-duration: 0.5s;
+}
+/* 이미지 hover */
+#menu_title > .menu > .menu_content > img:hover {
+    transform: scale(1, 1);
+}
+
+#menu_title > .menu > .menu_content:nth-child(3n) {
+    margin-right: 0;
+}
+
+#menu_title > .menu p {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+#menu_title > .menu .firstP {
+    color: #adc178;
+    font-family: Metropolis-Regular;
+    font-weight: bold;
+    margin-bottom: -3px;
+}
+#menu_title > .menu h3 {
+    text-align: left;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+#menu_title > .menu .price {
+    font-weight: 800;
+    font-size: 20px;
+    text-align: right;
+    color: #adc178;
+}
