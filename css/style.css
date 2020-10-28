@@ -370,6 +370,8 @@ section .para {
 /* main_footer */
 #main_footer {
     width: 1920px;
+    min-width: 1200px;
+    overflow: hidden;
     height: 400px;
     background-color: #7d7d7d;
     margin: 0 auto;
